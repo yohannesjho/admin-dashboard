@@ -8,6 +8,7 @@
         <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" ></script>
 
         <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  
     </head>
     <body>
         <section id="menu">
@@ -26,5 +27,278 @@
                 <li><i class="fas fa-chart-line"></i><a href="#">blank</a></li>
             </div>
         </section>
+
+        <section id="interface">
+               <div class="navigation">
+                  <div class="n1">
+                     <div>
+                         <i id="menu-btn" class="fas fa-bars"></i>
+                     </div>
+                     <div class="search">
+                        <i class="far fa-search"></i>
+                        <input type="text" placeholder="search">
+                     </div>
+                    
+                  </div>
+
+                  <div class="profile">
+                     <i class="far fa-bell"></i>
+                     <img src="C:\Users\OWN-IT\OneDrive\Desktop\project\image\Abiy_Ahmed_Ali7357.jpg" alt="">
+                  </div>
+               </div>
+               <h3 class="i-name">
+                 Dashboard
+               </h3>
+
+               <div class="values">
+                   <div class="val-box">
+                      <i class="fas fa-users"></i>
+                      <div>
+                         <h3>8,268</h3>
+                         <span>New users</span>
+                      </div>
+                   </div>
+                   <div class="val-box">
+                    <i class="fas fa-shopping-cart"></i>
+                    <div>
+                       <h3>200,521</h3>
+                       <span>Total Orders</span>
+                    </div>
+                 </div>
+                 <div class="val-box">
+                    <i class="fas fa-acron"></i>
+                    <div>
+                       <h3>215,542</h3>
+                       <span>Products Sell</span>
+                    </div>
+                 </div>
+                 <div class="val-box">
+                    <i class="fas fa-dollar-sign"></i>
+                    <div>
+                       <h3>$677.89</h3>
+                       <span>This Month</span>
+                    </div>
+                 </div>
+               </div>
+            <div class="board">
+                  <table width="100%">
+                      <thead>
+                          <tr>
+                              <td>Name</td>
+                              <td>Title</td>
+                              <td>Status</td>
+                              <td>Role</td>
+                              <td></td>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td class="people">
+                                 <img src="C:\Users\OWN-IT\OneDrive\Desktop\project\image\download.jpg" alt="">
+                                 <div class="people-de">
+                                     <h5>yohannes fikre</h5>
+                                     <p>yohannes@example.com</p>
+                                 </div>
+                              </td>
+                              <td  class="people-des">
+                                 <h5>Software Engineer</h5>
+                                 <p>Web dev</p>
+
+                              </td>
+                              <td class="active">
+                                <p>Active</p>
+
+                              </td>
+                              <td class="role">
+                                  <p>Owner</p>
+                              </td>
+                              <td class="edit">
+                                 <a href="#">Edit</a>
+                              </td>
+                          </tr>
+                          <tr>
+                            <td class="people">
+                               <img src="C:\Users\OWN-IT\OneDrive\Desktop\project\image\images (2).jpg" alt="">
+                               <div class="people-de">
+                                   <h5>Dagmawit Hussein</h5>
+                                   <p>Dagmawit@example.com</p>
+                               </div>
+                            </td>
+                            <td  class="people-des">
+                               <h5>Software Engineer</h5>
+                               <p>Web dev</p>
+
+                            </td>
+                            <td class="active">
+                              <p>Active</p>
+
+                            </td>
+                            <td class="role">
+                                <p>Owner</p>
+                            </td>
+                            <td class="edit">
+                               <a href="#">Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="people">
+                               <img src="C:\Users\OWN-IT\OneDrive\Desktop\project\image\images (3).jpg" alt="">
+                               <div class="people-de">
+                                   <h5>eyouel tariku</h5>
+                                   <p>eyouel@example.com</p>
+                               </div>
+                            </td>
+                            <td  class="people-des">
+                               <h5>Software Engineer</h5>
+                               <p>Web dev</p>
+
+                            </td>
+                            <td class="active">
+                              <p>Active</p>
+
+                            </td>
+                            <td class="role">
+                                <p>Owner</p>
+                            </td>
+                            <td class="edit">
+                               <a href="#">Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="people">
+                               <img src="C:\Users\OWN-IT\OneDrive\Desktop\project\image\images (1).jpg" alt="">
+                               <div class="people-de">
+                                   <h5>Bereket Molalgn</h5>
+                                   <p>Bereket@example.com</p>
+                               </div>
+                            </td>
+                            <td  class="people-des">
+                               <h5>Software Engineer</h5>
+                               <p>Web dev</p>
+
+                            </td>
+                            <td class="active">
+                              <p>Active</p>
+
+                            </td>
+                            <td class="role">
+                                <p>Owner</p>
+                            </td>
+                            <td class="edit">
+                               <a href="#">Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="people">
+                               <img src="C:\Users\OWN-IT\OneDrive\Desktop\project\image\images.jpg" alt="">
+                               <div class="people-de">
+                                   <h5>Alexander Bewketu</h5>
+                                   <p>Alexander@example.com</p>
+                               </div>
+                            </td>
+                            <td  class="people-des">
+                               <h5>Software Engineer</h5>
+                               <p>Web dev</p>
+
+                            </td>
+                            <td class="active">
+                              <p>Active</p>
+
+                            </td>
+                            <td class="role">
+                                <p>Owner</p>
+                            </td>
+                            <td class="edit">
+                               <a href="#">Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="people">
+                               <img src="C:\Users\OWN-IT\OneDrive\Desktop\project\image\download (3).jpg" alt="">
+                               <div class="people-de">
+                                   <h5>Meseret fkru</h5>
+                                   <p>Meseret@example.com</p>
+                               </div>
+                            </td>
+                            <td  class="people-des">
+                               <h5>Software Engineer</h5>
+                               <p>Web dev</p>
+
+                            </td>
+                            <td class="active">
+                              <p>Active</p>
+
+                            </td>
+                            <td class="role">
+                                <p>Owner</p>
+                            </td>
+                            <td class="edit">
+                               <a href="#">Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="people">
+                               <img src="C:\Users\OWN-IT\OneDrive\Desktop\project\image\download (2).jpg" alt="">
+                               <div class="people-de">
+                                   <h5>Lidya Alemu</h5>
+                                   <p>Lidya@example.com</p>
+                               </div>
+                            </td>
+                            <td  class="people-des">
+                               <h5>Software Engineer</h5>
+                               <p>Web dev</p>
+
+                            </td>
+                            <td class="active">
+                              <p>Active</p>
+
+                            </td>
+                            <td class="role">
+                                <p>Owner</p>
+                            </td>
+                            <td class="edit">
+                               <a href="#">Edit</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="people">
+                               <img src="C:\Users\OWN-IT\OneDrive\Desktop\project\image\images (4).jpg" alt="">
+                               <div class="people-de">
+                                   <h5>Bezabh Kebede</h5>
+                                   <p>Bezabh@example.com</p>
+                               </div>
+                            </td>
+                            <td  class="people-des">
+                               <h5>Software Engineer</h5>
+                               <p>Web dev</p>
+
+                            </td>
+                            <td class="active">
+                              <p>Active</p>
+
+                            </td>
+                            <td class="role">
+                                <p>Owner</p>
+                            </td>
+                            <td class="edit">
+                               <a href="#">Edit</a>
+                            </td>
+                        </tr>
+                      </tbody>
+                  </table>
+
+            </div>
+        </section>
+
+
+        <script>
+             $('#menu-btn').click(function(){
+                $('#menu').toggleClass("active");
+            })
+        </script>
+        
+
+         
+
     </body>
 </html>
